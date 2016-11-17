@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Dark Side of the Moon",
+		"author": "Pink Floyd",
+		"availableQuantity": 100,
+		"releaseYear": 1973
+	},
+	{
+		"title": "Sgt. Pepper's Lonely Hearts Club Band",
+		"author": "The Beatles",
+		"availableQuantity": 1000,
+		"releaseYear": 1967
+	},
+	{
+		"title": "Led Zeppelin IV (aka ZOSO)",
+		"author": "Led Zeppelin",
+		"availableQuantity": 0,
+		"releaseYear": 1971
+	},
+	{
+		"title": "Thriller",
+		"author": "Michael Jackson",
+		"availableQuantity": 100,
+		"releaseYear": 1982
+	},
+	{
+		"title": "Abbey Road",
+		"author": "The Beatles",
+		"availableQuantity": 0,
+		"releaseYear": 1969
+	},
+	{
+		"title": "The Wall",
+		"author": "Pink Floyd",
+		"availableQuantity": 100,
+		"releaseYear": 1979
+	},
+	{
+		"title": "Nevermind",
+		"author": "Nirvana",
+		"availableQuantity": 300,
+		"releaseYear": 1991
+	},
+	{
+		"title": "Revolver",
+		"author": "The Beatles",
+		"availableQuantity": 100,
+		"releaseYear": 1966
+	},
+	{
+		"title": "A Night at the Opera",
+		"author": "Queen",
+		"availableQuantity": 100,
+		"releaseYear": 1975
+	},
+	{
+		"title": "Ok Computer",
+		"author": "Radiohead",
+		"availableQuantity": 0,
+		"releaseYear": 1997
+	}
+]
