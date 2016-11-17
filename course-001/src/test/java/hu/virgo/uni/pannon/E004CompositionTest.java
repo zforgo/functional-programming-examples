@@ -7,6 +7,7 @@ import java.util.function.Function;
 import static java.lang.System.out;
 
 public class E004CompositionTest {
+
 	private static Function<Integer, Integer> times2 = e -> e * 2;
 
 	private static Function<Integer, Integer> squared = e -> e * e;

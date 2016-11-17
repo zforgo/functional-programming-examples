@@ -17,11 +17,14 @@ public class E008PartialApplicationTest {
 		return strBuilder;
 	}
 
-	private static Function<String, StringBuilder> addEllipsis = appendToMe -> appendChar('.', 3, appendToMe);
+	private static Function<String, StringBuilder> addEllipsis =
+			appendToMe -> appendChar('.', 3, appendToMe);
 
-	private static BiFunction<String, Integer, StringBuilder> addBangs = (appendToMe, times) -> appendChar('!', times, appendToMe);
+	private static BiFunction<String, Integer, StringBuilder> addBangs =
+			(appendToMe, times) -> appendChar('!', times, appendToMe);
 
-	private static Function<String, StringBuilder> addOneBang = appendToMe -> addBangs.apply(appendToMe, 1);
+	private static Function<String, StringBuilder> addOneBang =
+			appendToMe -> addBangs.apply(appendToMe, 1);
 
 	@Test
 	public void test() {

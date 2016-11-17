@@ -11,7 +11,9 @@ import static java.lang.System.out;
 
 public class E007PartiallyAppliedTest {
 
-	private static Function<String, Integer> price = (s) -> IntStream.of(s.chars().map(x -> x - '0').toArray()).sum();
+	private static Function<String, Integer> price = (s) -> IntStream
+			.of(s.chars().map(x -> x - '0').toArray())
+			.sum();
 
 	private static BiFunction<Integer, Boolean, Integer> withToll = (cost, eu) -> cost * (eu ? 1 : 3);
 

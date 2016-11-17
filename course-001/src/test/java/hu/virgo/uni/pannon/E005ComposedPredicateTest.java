@@ -13,8 +13,10 @@ public class E005ComposedPredicateTest {
 
 	private static final String filter = "the";
 
-	private static Predicate<Content> title = c -> c.getTitle().toLowerCase().contains(filter.toLowerCase());
-	private static Predicate<Content> author = c -> c.getAuthor().toLowerCase().contains(filter.toLowerCase());
+	private static Predicate<Content> title = c -> c.getTitle().toLowerCase()
+			.contains(filter.toLowerCase());
+	private static Predicate<Content> author = c -> c.getAuthor().toLowerCase()
+			.contains(filter.toLowerCase());
 
 
 	@Test
